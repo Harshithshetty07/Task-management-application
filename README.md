@@ -13,4 +13,4 @@ npm install lucide-react
 npm install @reduxjs/toolkit
 npm install react-redux
 
-tailwind css installion
+tailwind css installation
