@@ -1,9 +1,18 @@
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
+import { AppRoutes } from './routes/Approutes';
+import './App.css'
 
-import './App.css';
-
+// Main App component
 function App() {
   return (
-    <h1 className='text-4xl bg-black text-white'>Hello world</h1>
+    <Provider store={store}>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </Provider>
   );
 }
 
