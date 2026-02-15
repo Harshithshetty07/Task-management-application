@@ -14,3 +14,5 @@ npm install @reduxjs/toolkit
 npm install react-redux
 
 tailwind css installation
+
+npm start
